@@ -1,0 +1,82 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/cheat.js"></script>
+    <title>Marvel</title>
+</head>
+<body>
+    <header>
+        <img id="LogoMarvel" src="assets/img/Marvel_Logo.svg.png">
+        <div id="links">
+            <a href="">Wakanda</a>
+            <a href="">New York</a>
+            <a href="">Brazil</a>
+            <a href="">Sokovia</a>
+        </div>
+        <button id="sair"> ⮩Sair</button>
+    </header>
+    <nav>
+        <div id="container">
+            <div id="junto">
+                <div id="titulo">
+                    <h1>A guerra esta chegando!</h1>
+                    <p id="lado">Escolha seu lado...</p>
+                </div>
+                <div id="cards">
+                    <div class="cards">
+                        <div class="semideia"><p class="time">֍ Team Iron</p></div>
+                        <img class="icon" src="assets/icons/iron.png">
+                        <p class="descricao">Una-se pela ordem e responsabilidade! Junte-se a nós para defender a paz e o controle.</p>
+                        <button class="escolher">Escolher</button>
+                    </div>
+                    <div class="cards">
+                        <div class="semideia"><p class="time">֍ Team Cap</p></div>
+                        <img class="icon" src="assets/icons/cap.png">
+                        <p class="descricao">Lutem pela liberdade e pela autonomia! venha para o nosso lado e preserve a liberdade.</p>
+                        <button class="escolher">Escolher</button>
+                    </div>
+                    <div class="cards">
+                        <div class="semideia"><p class="time">֍ Team Thanos</p></div>
+                        <img class="icon" src="assets/icons/thanos.png">
+                        <p class="descricao">O destino do universo está em nossas mãos! Junte-se a nós para trazer equilíbrio.</p>
+                        <button class="escolher">Escolher</button>
+                    </div>
+                </div>
+                <hr>
+                <div id="direitos">
+                    <h3>Desenvolvido por Pedro Queiroz</h3>
+                </div>
+            </div>
+            <form>
+                <div id="escudo">
+                    <img id="semideia2" src="assets/icons/download-removebg-preview.png">
+                </div>
+                <input id="nome" type="text" placeholder="Seu nome de super-heroi">
+                <p id="forca">Informe seu nível de força</p>
+                <div id="forca">
+                    <input type="range" id="range">
+                    <select>
+                        <option>Tipo</option>
+                        <option>Velocidade</option>
+                        <option>Fogo</option>
+                    </select>
+                </div>
+                <p id="aquisicao">Data de aquisição do super poder</p>
+                <div id="data">
+                    <input class="dataelocal" id="datinha" type="date">
+                    <input class="dataelocal" type="text" placeholder="Local">
+                </div>
+                <div id="termos">
+                    <input type="checkbox">
+                    <label>Aceitar termos e condições</label>
+                </div>
+                <button onclick="alistar()" id="alistarse" class="fonte">Alistar-se</button>
+                <button class="fonte">⚑ Desistir</button>
+                <button class="fonte">🗡Convocar</button>
+            </div>
+        </form>
+    </nav>
+</body>
+</html>
